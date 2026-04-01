@@ -1,0 +1,12 @@
+[
+  {
+    "id": "addr_01",
+    "text": "Av. Paseo de la Reforma 1, Ciudad de México",
+    "zone_type": "oficina"
+  },
+  {
+    "id": "addr_02",
+    "text": "Insurgentes Sur 3000, Ciudad de México",
+    "zone_type": "universitaria"
+  }
+]

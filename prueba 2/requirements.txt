@@ -1,0 +1,6 @@
+pandas
+faiss-cpu
+langchain
+openai
+python-dotenv
+mcp

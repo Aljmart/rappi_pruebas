@@ -1,0 +1,1 @@
+Para su correcta ejecucion se debe ejecutar el script server.py en sugundo plano, posteriormente se debe ejecutar el script test_query.py
