@@ -40,7 +40,7 @@ def run_address_job(address):
 
             print(f"[{addr_id}] Ejecutando {platform_name}...")
 
-            # 🚀 Cada plataforma usa su propio navegador
+            
             browser = p.chromium.launch(
                 headless=False,  # Rappi y DiDi bloquean headless
                 args=[
@@ -63,7 +63,7 @@ def run_address_job(address):
 
             page = context.new_page()
 
-            # 🚀 Stealth patches
+         
             page.add_init_script("""
             Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
             Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3]});
